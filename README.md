@@ -3,7 +3,7 @@ Calculez le rendement net d'un investissement locatif immobilier, impôts compri
 
 ## URL
 
-https://www.osimatic.fr/rendement-locatif
+https://www.osimatic.fr/rendement-locatif/
 
 ## Roadmap
 - ajout tranche imposition marginale

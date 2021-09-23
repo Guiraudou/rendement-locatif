@@ -6,8 +6,8 @@
 
 	<!-- title / desc / keywords-->
 	<title>Calcul immobilier</title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+	<meta name="description" content="Calculez le rendement net d'un investissement locatif immobilier, impôts compris." />
+	<meta name="keywords" content="rendement immobilier locatif" />
 
 	<!-- robots -->
 	<meta name="robots" content="all" />
@@ -16,8 +16,14 @@
 	<!-- website infos -->
 	<meta name="author" content="Benoit Guiraudou" />
 
-	<!-- mobile -->
+	<!-- affichage -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+
+	<!-- icons & favicon -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 	<!-- Style -->
 
@@ -29,12 +35,14 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 
-	<link href="css/style.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<div class="container">
+			<img src="logo.png" alt="" />
 			<h1>Rendement locatif</h1>
+			<div class="clearfix"></div>
 		</div>
 	</header>
 	<div class="corps container">
@@ -504,8 +512,7 @@
 	</div>
 	<footer>
 		<div class="container">
-			<p class="pull-left"></p>
-			<p class="pull-right">Réalisation : Benoit Guiraudou :p</p>
+			Made with ❤ by <a href="https://twitter.com/benfett">Benoit Guiraudou</a>. Contribute to this project on <a href="https://github.com/guiraudou/rendement-locatif">GitHub</a>.
 		</div>
 	</footer>
 

@@ -7,7 +7,6 @@ html, body {
 header {
     background: #546e7a;
     color: #fff;
-    padding: 10px 0;
     margin-bottom: 10px;
     z-index: 100;
     top: 0;
@@ -16,10 +15,29 @@ header {
     height: 60px;
     width: 100%;
 }
+header .container {
+    max-height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header img {
+    max-height: 50px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+header h1 {
+    margin: 0;
+    padding: 7px 0 5px 0;
+    /*font-family: 'Fredoka One', cursive;*/
+    /*font-family: 'Patrick Hand', cursive;*/
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    float: left;
+}
 footer {
     background: #29434e;
     color: #fff;
-    padding: 10px 0 0px 0;
+    padding: 10px 0 10px 0;
     font-size: 12px;
     z-index: 100;
     bottom: 0;
@@ -27,6 +45,13 @@ footer {
     position: fixed;
     /*height: 20px;*/
     filter: none;
+    text-align: center;
+}
+footer a {
+    color: #95a3db;
+}
+footer a:hover {
+    color: #7188d9;
 }
 div.corps {
     margin-top: 75px;
@@ -39,14 +64,6 @@ div.corps {
         margin-top: 65px;
         margin-bottom: 25px;
     }
-}
-header h1 {
-    margin: 0;
-    padding-top: 2px;
-    /*font-family: 'Fredoka One', cursive;*/
-    /*font-family: 'Patrick Hand', cursive;*/
-    font-family: 'Indie Flower', cursive;
-    font-weight: 400;
 }
 table.table tr.border-top td {
     border-top: 1px solid #ddd;
