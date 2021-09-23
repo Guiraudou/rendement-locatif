@@ -1,0 +1,13 @@
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+### Editor ###
+.idea/
+
+### Gulp ###
+node_modules/
+
+### PHP ###
+vendor/
