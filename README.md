@@ -1,0 +1,2 @@
+# rendement-locatif
+Rendement locatif
