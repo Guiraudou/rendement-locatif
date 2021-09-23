@@ -25,7 +25,7 @@
 	<!-- icons & favicon -->
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-	<!-- Style -->
+	<!-- style -->
 
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
@@ -35,7 +35,7 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 
-	<link href="./css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -516,6 +516,12 @@
 		</div>
 	</footer>
 
+	<script type="text/javascript">
+		var locale = 'fr-FR';
+		var timeZone = 'Europe/Paris';
+		var currency = 'EUR';
+	</script>
+	
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
@@ -523,9 +529,5 @@
 	<script src="js/helpers.js"></script>
 	<script src="js/app.js"></script>
 
-	<script type="text/javascript">
-		var locale = 'fr-FR';
-		var currency = 'EUR';
-	</script>
 </body>
 </html>
